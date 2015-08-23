@@ -1,0 +1,10 @@
+---
+title: "CodeBook"
+author: "Samantha Cronier"
+date: "August 22, 2015"
+output: html_document
+---
+
+This markdown file describes the tidy data set created from running the run_analysis.R code in this repo.
+
+
