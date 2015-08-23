@@ -5,3 +5,20 @@ date: "August 22, 2015"
 output: html_document
 ---
 This is a code book that describes the variables, the data, and transformations done to clean up the data.
+
+vARIABLES and DATA
+The tidy.txt data is in wide form. There are 180 rows for each subject and 
+activity combination. The first two columns are named "subject" (numeric) and "activity" (descriptive)
+There is one column for each mean and std calculation, and
+the data in the columns is the MEAN of each of these variables.
+
+For a full description of the variables, the features.txt file in the original 
+download.
+
+TRANSFORMATIONS
+The analysis script does the following:
+1. add feature names, subject names and activity codes
+2. select only those variables containing "mean" or "std" in the column name
+3. recode the activities with descriptions
+4. melt data into long form
+5. cast data to create means of each variable per subject/activty combinations

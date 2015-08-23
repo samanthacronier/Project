@@ -7,3 +7,17 @@ output: html_document
 
 This README file explains how all of the scripts work and how they are connected
 
+There is one script that does the analysis: run_analysis.R
+
+To use it, put the unzipped data into your working directory, then execute
+all the code in the file.
+
+
+Here are the data for the project: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The codebook file explains the names of the variables, but a full description is 
+available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
